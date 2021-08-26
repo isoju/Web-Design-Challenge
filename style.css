@@ -1,0 +1,17 @@
+#navbarSupportedContent {
+    position: relative;
+    left: 80%;
+    }
+
+#latitude_box {
+    position: fixed;
+    background-color: turquoise;
+    background-size: 50% auto;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    background-size: cover;
+    line-height: 70px;
+}
