@@ -38,7 +38,7 @@ body {
 
 #navbarSupportedContent {
     position: relative;
-    left: 100%;
+    left: 80%;
     /* font-family: 'Times New Roman', Times, serif; */
     color: #676767;
     }  
@@ -96,4 +96,34 @@ h3 {
 }
 
 
+button {
+    background: transparent;
+    /* box-shadow: 0px 0px 0px transparent; */
+    border: 0px solid transparent;
+    /* text-shadow: 0px 0px 0px transparent; */
+  }
+  
+  button:hover {
+    background: transparent;
+    /* box-shadow: 0px 0px 0px transparent; */
+    border: 2px solid #4aaaa5;
+    /* text-shadow: 0px 0px 0px transparent; */
+  }
+  
+  button:active {
+    outline: none;
+    border: 2px solid #4aaaa5;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+#vis_fig1 {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
