@@ -1,8 +1,8 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>Max Temperature</title>
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -27,10 +27,10 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="max-temperature.html" id = "max_temp">Max Temperature</a>
-              <a class="dropdown-item" href="#" id = "humidity">Humidity</a>
+              <a class="dropdown-item" href="humidity.html" id = "humidity">Humidity</a>
               <!-- <div class="dropdown-divider"></div> -->
-              <a class="dropdown-item" href="#" id = "cloudiness">Cloudiness</a>
-              <a class="dropdown-item" href="#" id = "wind_speed">Wind Speed</a>
+              <a class="dropdown-item" href="cloudiness.html" id = "cloudiness">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html" id = "wind_speed">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
@@ -52,7 +52,7 @@
             <hr>
             <article class = "row">
               <div class = "col-md-12">
-                <img src = "Resources/figures/Fig1.png" id = "vis_fig1">
+                <img src = "Resources/figures/Fig1.png" class = "vis_fig">
                 <p id = "summary"> As expected, the weather becomes significantly warmer as one approaches the equator
                   (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be 
                 warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time
@@ -74,19 +74,25 @@
                 </a>
               </div>
               <div class = "col-md-6">
-                <button>
-                  <img src = "Resources/figures/Fig2.png" id = "fig2">
-                </button>
+                <a href = "humidity.html">
+                  <button>
+                    <img src = "Resources/figures/Fig2.png" id = "fig2">
+                  </button>
+                </a>
               </div>
               <div class = "col-md-6">
-                <button>
-                  <img src = "Resources/figures/Fig3.png" id = "fig3">
-                </button>
+                <a href = "cloudiness.html">
+                  <button>
+                    <img src = "Resources/figures/Fig3.png" id = "fig3">
+                  </button>
+                </a>
               </div>
               <div class = "col-md-6">
-                <button>
-                 <img src = "Resources/figures/Fig4.png" id = "fig4"> 
-                </button>
+                <a href = "wind_speed.html">
+                  <button>
+                  <img src = "Resources/figures/Fig4.png" id = "fig4"> 
+                  </button>
+                </a>
               </div>
           </div>
         </div>    

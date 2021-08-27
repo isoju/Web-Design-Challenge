@@ -119,8 +119,8 @@ button {
     outline: 0;
   }
 
-#vis_fig1 {
-    width: 80%;
+.vis_fig {
+    width: 70%;
     height: auto;
     display: block;
     margin-left: auto;
