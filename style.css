@@ -153,3 +153,17 @@ h4 {
     overflow: hidden;
 }
 
+#navbarSupportedContent {
+    padding:inherit;
+    left: 0%;
+}
+
+/* .collapse {
+    background-color: white;
+} */
+
+
+
+}
+
+
