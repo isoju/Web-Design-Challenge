@@ -24,7 +24,6 @@ body {
 }
 
 #latitude_box {
-    position:absolute;
     width: 135px;
     text-align: center;
     background-color: #4aaaa5;
@@ -32,20 +31,19 @@ body {
     font-size: 30px;
     color: #ffffff;
     font-weight: bolder;
-    line-height: 50px;
+    line-height: 40px;
     left: 1%;
 }
 
 #navbarSupportedContent {
     position: relative;
-    left: 80%;
+    left: 70%;
     /* font-family: 'Times New Roman', Times, serif; */
     color: #676767;
     }  
 
-#navbarDropdown {
-    margin-left: 5px;
-    margin-right: 5px;
+#test{
+    right:50%;
 }
 
 .nav-item {
@@ -79,21 +77,11 @@ h3 {
     font-weight: bolder;
 }
 
-#fig1 {
+#fig1, #fig2, #fig3, #fig4{
     width: 100%;
 }
 
-#fig2 {
-    width: 100%;
-}
 
-#fig3 {
-    width: 100%;
-}
-
-#fig4 {
-    width: 100%;
-}
 
 
 button {
@@ -125,5 +113,43 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#dataframe {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+}
+
+th {
+    font-weight: normal;
+}
+
+#th1, #th2, #th3, #th4, #th5, #th6, #th7, #th8, #th9, #th10 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bolder;
+    color: #4aaaa5;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 975px) {
+
+.bg-light {
+    background-color: #4aaaa5!important;
+}
+
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    overflow: hidden;
 }
 
